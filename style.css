@@ -1,0 +1,16 @@
+body {
+  font-family: system-ui;
+  background: #b3edeb;
+  color: black;
+  text-align: center;
+}
+.circle{
+  position: absolute;
+  bottom: -100px;
+  background: #f2f2f2;
+  opacity: 0,5;
+  animation: bubble 15s infinite ease;
+  @keyframes bubble{
+    0%{
+      bottom: -100px;
+      transform: translateX(0);
